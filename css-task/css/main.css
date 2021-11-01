@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container{
+    width: 1366px;
+    height: 616px;
+    background-color: #eee;
+}
+
+.container div{
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+}
+
+.one{
+    width: 1360px;
+    height: 120px;
+    display: inline-block;
+    background-color: rgb(249, 255, 170);
+    color: rgb(33, 92, 92);
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.two{
+    width: 1366px;
+    height: 120px;
+    background-color: rgb(161, 199, 241);
+    color: rgb(39, 69, 114);
+}
+
+.three{
+    width: 1366px;
+    display: flex;
+    height: 120px;
+    background-color: rgb(154, 255, 208);
+    color: rgb(230, 255, 7);
+    visibility: hidden;
+}
+
+.four{
+    width: calc(1360px / 2);
+    margin-left: 1px;
+    margin-right: 2px;
+    height: 120px;
+    background-color: chocolate;
+    color: rgb(27, 85, 49);
+}
+
+.five{
+    width: calc(1360px / 2);
+    margin-left: 2px;
+    height: 120px;
+    background-color: rgb(21, 104, 1);
+    color: rgb(237, 245, 214);
+}
+
+.six{
+    width: calc(1360px / 2);
+    margin-left: 1px;
+    height: 120px;
+    background-color: rgb(77, 7, 7);
+    color: rgb(252, 205, 105);
+    margin-top: 6px;
+}
+
+.seven{
+    width: 1360px;
+    margin-left: 1px;
+    height: 120px;
+    background-color: rgb(102, 226, 226);
+    color: rgb(0, 0, 0);
+    margin-top: 6px;
+}
